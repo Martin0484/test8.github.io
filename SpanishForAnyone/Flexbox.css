@@ -1,0 +1,79 @@
+/* style.css */
+
+body {
+  margin: 0;
+  background-color: #ffe49c;
+}
+h1 {
+  text-align: center;
+  font-size: 60px;
+  margin: 0;
+  padding: 5px 0 0 0;
+  font-style: italic;
+  font-family: serif;
+}
+
+h3 {
+  font-size: 45px;
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+p {
+  font-size: 20px;
+  margin: 3px 0 5px 0;
+  text-align: center;
+}
+
+.header {
+  color: black;
+}
+
+h2 {
+  font-size: 25px;
+  padding: 0;
+  margin: 0 0 10px 0;
+  font-family: sans-serif;
+}
+
+h4 {
+  text-align: center;
+  font-size: 23px;
+  margin: 0;
+}
+
+img {
+  border-radius: 15px;
+  margin: 0;
+  width:290px; /*we now know width of img*/
+  position:absolute;
+  bottom: 10px;
+  left: 35px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 10px 20px 0 20px;
+    background-color: orange;
+}
+
+.box{
+    width: 340px;
+    height: 340px;
+    font-size: 8em;
+    text-align: center;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 6px 2px 15px 2px;
+    background-color: white;
+    position: relative;
+}
+
+a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
